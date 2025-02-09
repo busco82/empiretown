@@ -3,7 +3,7 @@ game("gta5")
 lua54("yes")
 
 description("Allows Players to recieve and Send Bills")
-version("1.0.2")
+version("1.0.8")
 
 shared_scripts({
     "@es_extended/imports.lua",
@@ -16,7 +16,5 @@ server_scripts({
     "@oxmysql/lib/MySQL.lua",
     "server/main.lua",
 })
-
-client_script("client/main.lua")
 
 dependency("es_extended")
